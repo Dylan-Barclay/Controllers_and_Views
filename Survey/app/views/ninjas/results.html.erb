@@ -1,0 +1,11 @@
+<% if flash[:notice] %>
+<div class="notice"><%= flash[:notice] %></div>
+<% end %>
+<h1>Submitted Information:</h1>
+<ul>
+    <li>Name: <%= @show_ninja.name %></li>
+    <li>Dojo Location: <%= @show_ninja.location %></li>
+    <li>Favorite Language: <%= @show_ninja.language %></li>
+    <li>Comments: <%= @show_ninja.comment %></li>
+</ul>
+
