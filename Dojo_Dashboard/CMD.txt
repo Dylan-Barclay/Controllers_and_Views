@@ -1,0 +1,11 @@
+   Prefix Verb   URI Pattern               Controller#Action
+   root GET    /                         dojos#index
+    dojos GET    /dojos(.:format)          dojos#index
+          GET    /dojos(.:format)          dojos#index
+          POST   /dojos(.:format)          dojos#create
+ new_dojo GET    /dojos/new(.:format)      dojos#new
+edit_dojo GET    /dojos/:id/edit(.:format) dojos#edit
+     dojo GET    /dojos/:id(.:format)      dojos#show
+          PATCH  /dojos/:id(.:format)      dojos#update
+          PUT    /dojos/:id(.:format)      dojos#update
+          DELETE /dojos/:id(.:format)      dojos#destroy
